@@ -1,0 +1,30 @@
+.app__testimonials-reviews {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 40px;
+    transition: 0.5s;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.icons .button {
+    font-size: 40px;
+    color: red;
+    cursor: pointer;
+}
+@media screen and (max-width: 650px) {
+    .app__testimonials-reviews {
+        padding: 0;
+    }
+    
+}

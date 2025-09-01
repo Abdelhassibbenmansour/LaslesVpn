@@ -1,0 +1,25 @@
+.app__subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    width: 100%;
+    background-color: #eee;
+}
+.app__subscribe-infos {
+    /* width: 350px; */
+    flex: 0.5;
+}
+.app__subscribe-infos .title {
+    font-size: 35px;
+    color: var(--black-color);
+    line-height: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 450px) {
+    .app__subscribe {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

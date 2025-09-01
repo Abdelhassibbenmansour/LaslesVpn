@@ -1,0 +1,11 @@
+.app__plans-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+@media screen and (max-width: 750px) {
+    .app__plans-cards {
+        flex-direction: column;
+    }
+}

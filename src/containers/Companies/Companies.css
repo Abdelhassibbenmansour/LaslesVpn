@@ -1,0 +1,22 @@
+.app__companies {
+    margin-top: 3rem;
+}
+.app__companies-huge-map {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+.app__companies-huge-map img {
+    max-width: 100%;
+}
+.app__companies-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+@media screen and (max-width: 650px) {
+    .app__companies-logos {
+        display: none;
+    }
+}

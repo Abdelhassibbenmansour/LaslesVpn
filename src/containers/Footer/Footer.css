@@ -1,0 +1,49 @@
+.app__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.app__footer-left {
+    width: 340px;
+}
+.app__footer-left_logo {
+    margin-bottom: 10px;
+}
+.app__footer-left_text {
+    color: var(--gray-color);
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.app__footer-left_icons img {
+    cursor: pointer;
+}
+.app__footer-left_copyright img {
+    cursor: pointer;
+}
+.app__footer-right {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.app__footer-right .title {
+    margin-bottom: 20px;
+}
+.app__footer-right .text {
+    margin-bottom: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.app__footer-right .text:hover {
+    color: var(--main-color);
+}
+@media screen and (max-width: 450px) {
+    .app__footer {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .app__footer-right {
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+    }
+}

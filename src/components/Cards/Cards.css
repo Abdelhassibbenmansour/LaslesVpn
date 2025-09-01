@@ -1,0 +1,35 @@
+.app__card {
+    width: 330px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.app__card:hover {
+    transform: scale(1.2);
+    z-index: 40;
+}
+.app__card-top_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.app__card-top_type {
+    text-align: center;
+    font-size: 18px;
+    color: var(--black-color);
+    margin-bottom: 35px;
+}
+.app__card_bottom {
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 650px) {
+    .app__card:hover {
+        transform: none;
+    }
+}
